@@ -6,6 +6,7 @@ module.exports = {
 		'prettier/prettier': 0,
 		'comma-dangle': 0,
 		'no-trailing-spaces': 0,
-		'@typescript-eslint/no-unused-vars': ['warn']
+		'@typescript-eslint/no-unused-vars': ['warn'],
+		'react/react-in-jsx-scope': 'off'
 	}
 };
