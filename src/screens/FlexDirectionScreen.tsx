@@ -15,10 +15,11 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: '#D1D1D1',
 		justifyContent: 'space-between',
-		alignItems: 'center',
+		alignItems: 'stretch',
 		flexDirection: 'row'
 	},
 	box: {
+		// flex: 1,
 		width: 100,
 		height: 100
 	},
