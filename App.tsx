@@ -5,7 +5,8 @@ import { SafeAreaView } from 'react-native';
 // import { DimensionesScreen } from './src/screens/DimensionesScreen';
 // import { PositionScreen } from './src/screens/PositionScreen';
 // import { FlexScreen } from './src/screens/FlexScreen';
-import { FlexDirectionScreen } from './src/screens/FlexDirectionScreen';
+// import { FlexDirectionScreen } from './src/screens/FlexDirectionScreen';
+import { HomeworkScreen } from './src/screens/HomeworkScreen';
 
 export const App = () => {
 	return (
@@ -16,7 +17,8 @@ export const App = () => {
 			{/* <DimensionesScreen /> */}
 			{/* <PositionScreen /> */}
 			{/* <FlexScreen /> */}
-			<FlexDirectionScreen />
+			{/* <FlexDirectionScreen /> */}
+			<HomeworkScreen />
 		</SafeAreaView>
 	);
 };
